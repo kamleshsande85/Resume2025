@@ -57,7 +57,7 @@ h1, h2, h3 {
     border-right: 1px solid lightgray;
 }
 
-.skill li{
+.skill{
   list-style: none; /* बुलेट्स हटाएं */
   padding-left: 0; /* डिफॉल्ट पैडिंग भी हटाएं (अगर जरूरत हो) */
     
