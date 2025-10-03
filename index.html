@@ -1,244 +1,143 @@
-<html>
-  <head>
-    <link href="style.css" rel="stylesheet" />
-    <title>My-Digital-Resume</title>
-    <link
-      rel="stylesheet"
-      href="./style.css"
-    />
-
-    <style>
-      h1 , h2 {
-        font-weight: bold;
-        /* background-color: yellow; */
-      } 
-      h3{
-        font-weight: 900;
-        text-transform: uppercase;
-      
-        /* text-decoration: underline; */
-      }
-/*       li{
-        list-style: square;
-      } */
-       main{
-        border: 2px solid black;
-      }
-      #header{
-        border: 2px solid black;
-         width: 956px;
-        margin: 0;
-         margin-top: 3%; 
-      }
-     main{
-      margin: 0;
-      border-top: 0;
-     }
-     
-    </style>
-
-  </head>
-
-  <body>
-    <header id="header">
-      <!-- resume header with your name and title -->
-      <h1>Kamlesh Kumar</h1>
-      <hr />
-     Networking Enthusiast ,SOC Analyst & Full-Stack Web Developer
-      <hr />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamlesh Kumar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kamlesh Kumar</h1>
+        <p>Networking Enthusiast, SOC Analyst & Full-Stack Web Developer</p>
     </header>
     <main>
-      <article id="mainLeft">
-        <section>
-          <h2>CONTACT</h2>
-          <!-- contact info including social media -->
-          <p>
-            <b>Mobile No. +91 6266314789</b> 
-          </p>
-          <p>
-           
-            <b><a href="mailto:kamleshsande85@yahoo.com" target="_blank">kamleshsande85@yahoo.com</a></b>
-          </p>
-          <p>
-           
-           <b> <a href="https://github.com/kamleshsande85" target="_blank"
-              >GitHub</a></b>
-          </p>
-          <p>
-          
-           <b> <a href="https://www.linkedin.com/in/kamlesh-kumar-9921282bb/" target="_blank"
-              >Linkedin</a
-            ></b>
-          <p>
-            
-           <b><a href="./WebDevelopmentResume27may.pdf" target="_blank"
-              >Download Resume (Web Development)</a> </b>
-          </p>
-              <b><a href="./NetworkingResume14June.pdf" target="_blank"
-              >Download Resume (Junior Network Engineer)</a> </b>
-          </p>
-        </section>
-   <section>
-          <h2>SKILLS</h2>
-         
-          <!-- Skills divided into Cyber Security, Networking, and Web Development -->
-          
-           <h3>Cyber Security & Incident Response</h3>
-            <ul class="skill">
-              <li><b>Security Tools:</b> SIEM (Splunk/QRadar), EDR (CrowdStrike Concepts), Metasploit, Nmap, Wireshark (Network Forensics).</li>
-              <li><b>Analysis & Threat Intel:</b> Log Analysis (ELK), Threat Intelligence (MITRE ATT&CK), Incident Response.</li>
-              <li><b>Labs & OS:</b> VirtualBox, VMware, picoCTF, TryHackMe, Linux (Kali, Debian).</li>
-              <li><b>Certifications:</b> NPTEL Certified (Cybersecurity), Preparing for CompTIA Security+.</li>
-            </ul> 
-           
-           <h3>Networking & Infrastructure</h3>
-            <ul class="skill">
-              <li><b>Protocols & Concepts:</b> TCP/IP, DHCP, DNS, ARP, VLANs, Basic Routing & Switching.</li>
-              <li><b>OS & Scripting:</b> Windows, Linux, Python (Network Automation), Bash.</li>
-              <li><b>Tools & Support:</b> Wireshark, Nmap, Troubleshooting.</li>
-              <li><b>Certifications:</b> Preparing for CompTIA Network+.</li>
-            </ul>
-
-           <h3>Web Development & Programming</h3>
-            <ul class="skill">
-              <li><b>Languages:</b> Python, JavaScript, Java, C/C++, SQL.</li>
-              <li><b>Frontend:</b> HTML, CSS, JavaScript, React.js, Figma (Design).</li>
-              <li><b>Backend & DB:</b> Flask, Django, REST APIs, SQLite, PostgreSQL.</li>
-              <li><b>Dev Tools:</b> Git, Linux, OOP, Data Structures, Debugging.</li>
-            </ul>
-        </section>
-        
-        <section>
-          <h2>EDUCATION</h2>
-          <h3>Master of Computer Applications (MCA)</h3>
-          <p>Pandit Ravi Shankar Shukla University, Raipur</p>
-          <p>2023 - Graduated September 2025 | Percentage: 76.73%</p>
-
-          <h3>Bachelor of Science (Computer Science)</h3>
-          <p>T.C.L. Govt. P.G. College, Janjgir</p>
-          <p>2021-2023 | Percentage: 73.55%</p>
-        </section>
-
-        <section>
-          <h2>ACADEMIC & PERSONAL PROJECTS</h2>
-          <!-- Projects categorized by domain: Security, Web Development, and Networking -->
-          
-          <h3>Cyber Security & Analysis Projects</h3>
-          <ul class="project-list">
-            <li><b>Real-Time Security Dashboard using Splunk</b>
-              <p>Engineered a centralized log monitoring solution by configuring Splunk to ingest network and system logs. Developed dashboards and set up AI-driven alerts to detect suspicious activity, enhancing the security team's ability to respond to critical threats (e.g., failed logins, traffic anomalies).</p>
-            </li>
-            <li><b>Ransomware Attack Simulation & Detection</b>
-              <p>Conducted a simulated ransomware attack in a sandboxed environment to study file encryption techniques. Developed Python scripts for rapid root-cause identification and system recovery, directly focusing on incident response protocols.</p>
-            </li>
-          </ul>
-          
-          <h3>Full-Stack Web Development Projects</h3>
-          <ul class="project-list">
-            <li><b>E-Commerce Platform with Django & React</b>
-              <p>Developed a full-stack e-commerce site using Django REST Framework (Backend) and React.js (Frontend). Implemented secure JWT authentication, PostgreSQL database management, and responsive UI design.</p>
-            </li>
-            <li><b>RESTful API Service (Flask)</b>
-              <p>Designed and deployed a lightweight API using Flask and Python. Focused on efficient routing, data serialization, and database interaction using SQLite, practicing clean code and modular design principles.</p>
-            </li>
-          </ul>
-
-          <h3>Networking & System Utilities</h3>
-          <ul class="project-list">
-            <li><b>Network Reconnaissance Tool (Python)</b>
-              <p>Created a command-line tool in Python using the Scapy library to perform basic network reconnaissance, including ARP scanning and packet sniffing, for local network auditing and monitoring.</p>
-            </li>
-            <li><b>Virtual Network Lab Setup</b>
-              <p>Configured a secure virtual environment using VirtualBox/VMware involving multiple operating systems (Kali Linux, Windows Server) to practice network segmentation, firewall rules, and protocol analysis with Wireshark.</p>
-            </li>
-          </ul>
-        </section>
-
-        
-        
-        
-      </article>
-      <article id="mainRight">
-        <section>
-          <h2>ABOUT</h2>
-          <!-- about you -->
-          <p>
-            <b>Networking Enthusiast ,SOC Analyst & Full-Stack Web Developer</b>
- Passionate about building scalable, secure, and user-centric web applications. Proficient in Python, JavaScript, Flask, Django, React, and SQL/PostgreSQL, with hands-on experience in REST APIs, JWT authentication, and responsive frontend design. Solid foundation in data structures, OOP, Linux, and debugging.
-<br>Enthusiastic about networking and infrastructure, with practical exposure to TCP/IP, DHCP, DNS, ARP, subnetting, and tools like Wireshark, Nmap, and VirtualBox/VMware. Actively preparing for CompTIA Network+ and Security+, with experience from TryHackMe labs, basic firewall setups, and system troubleshooting.
-          </p>
-        </section>
-       <section>
-          <h2>PROFESSIONAL EXPERIENCE & INTERNSHIPS</h2>
-          <!-- This section is listed in reverse chronological order (most recent first) -->
-
-          <h3>FMS Engineer | KAIZEN IT Services Private Limited (Kyndryl Project)</h3>
-          <p>On-site at Income Tax Dept., Raipur | September 2025 – Present</p>
-          <p>
-            <ul>
-              <li>Provides front-line IT support and Field Managed Services, enforcing IT policies and ensuring system compliance.</li>
-              <li>Responsible for on-site system troubleshooting, maintenance, and basic security configurations for end-users.</li>
-            </ul>
-          </p>
-          
-          <h3>Full-Stack Web Developer (Intern) | Adyant-SoftTech</h3>
-          <p>Feb 2025 - August 2025 (6 months)</p>
-          <p>
-            <ul>
-              <li>Involved in debugging, optimizing performance, and resolving technical issues in web applications (React/Django).</li>
-            </ul>
-          </p>
-         
-          <h3>Virtual Intern - Ethical Hacking & Penetration Testing</h3>
-          <p>Centre for Development of Advanced Computing (C-DAC), Noida | May 2025 - Jun 2025 (2 months)</p>
-          <p>
-            <ul>
-              <li>Enhanced skills in identifying and analyzing system flaws and network vulnerabilities, crucial for IT security and system maintenance.</li>
-            </ul>
-          </p>
-          
-          <h3>Cyber Security Intern | Acmegrade </h3>
-          <p>Jul 2024 – Sep 2024 (3 months)</p>
-          <p>
-            <ul>
-              <li>Gained practical cybersecurity knowledge, including information gathering techniques from websites.</li>
-            </ul>
-          </p>
-
-        </section>
-
-    <section>
-          <h2>CERTIFICATIONS & TRAINING</h2>
-          
-          <h3>Programming & Automation</h3>
-          <ul class="cert">
-              <li>PCEPT™ Certified Entry-Level Python Programmer (76%) | Feb 2025</li>
-              <li><a href="https://www.udemy.com/certificate/UC-feea493c-9830-43b2-ae08-561cd84e11d7/" target="_blank" rel="noopener noreferrer">The Complete Full-Stack Web Development Bootcamp</a></li>
-          </ul>
-
-          <h3>Networking & Cloud Fundamentals</h3>
-          <ul class="cert">
-              <li><a href="https://www.credly.com/badges/d9f24688-eb14-4558-a0a7-0d17b1fac408/linked_in_profile" target="_blank" rel="noopener noreferrer">CISCO : Networking Basics</a></li>
-              <li><a href="https://www.coursera.org/account/accomplishments/records/6D5UJSL8DXZP" target="_blank" rel="noopener noreferrer">Google : The Bits and Bytes of Computer Networking</a></li>
-              <li><a href="https://www.coursera.org/account/accomplishments/verify/JNV81QEDQTRB" target="_blank" rel="noopener noreferrer">IBM: Computer Networks and Network Security</a></li>
-              <li><a href="https://www.credly.com/badges/6f9803e8-fff0-4ea2-b81c-fa857ee6497f/linked_in_profile" target="_blank" rel="noopener noreferrer">AMAZON : AWS Educate Getting Started with Networking</a></li>
-              <li>In Progress: CCNA, CompTIA Network+ (N+)</li>
-          </ul>
-
-          <h3>Cybersecurity & Practical Labs</h3>
-          <ul class="cert">
-              <li><a href="https://drive.google.com/file/d/12IBAIwD265Mc-WWesn3wNKuZ5ugIymGr/view?usp=drive_link" target="_blank" rel="noopener noreferrer">NPTEL: Ethical Hacking</a> & <a href="https://drive.google.com/file/d/1MxZqHEG4mDH_-DZZJ4GvbBWer9kVEzjK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Practical Cybersecurity</a>(Certified)</li>
-              <li>In Progress: CompTIA Security+</li>
-              <li>Cyber Labs: TryHackMe (Beginner-Intermediate Rooms), PicoCTF Challenges</li>
-          </ul>
-
-          <h3>Competitive Examination</h3>
-          <ul class="cert">
-              <li>TCS ION NQT - IT | June 2025 (Overall Score: 56.08%)</li>
-          </ul>
-        </section>
-        
-      </article>
+        <div id="mainLeft">
+            <section>
+                <h2>CONTACT</h2>
+                <p><i></i>Mobile No. +91 6266314789</p>
+                <p><i></i><a href="mailto:kamleshsande85@yahoo.com">kamleshsande85@yahoo.com</a></p>
+                <p><i></i><a href="https://github.com/yourusername">GitHub</a></p>
+                <p><i></i><a href="https://linkedin.com/in/yourprofile">Linkedin</a></p>
+                <p><i></i><a href="#">Download Resume (Web Development)</a></p>
+                <p><i></i><a href="#">Download Resume (Junior Network Engineer)</a></p>
+            </section>
+            <section>
+                <h2>SKILLS</h2>
+                <h3>Cyber Security & Incident Response</h3>
+                <ul class="skill">
+                    <li>Security Tools: SIEM (Splunk/QRadar), EDR (CrowdStrike Concepts), Metasploit, Nmap, Wireshark (Network Forensics).</li>
+                    <li>Analysis & Threat Intel: Log Analysis (ELK), Threat Intelligence (MITRE ATT&CK), Incident Response.</li>
+                    <li>Labs & OS: VirtualBox, VMware, picoCTF, TryHackMe, Linux (Kali, Debian).</li>
+                    <li>Certifications: NPTEL Certified (Cybersecurity), Preparing for CompTIA Security+.</li>
+                </ul>
+                <h3>Networking & Infrastructure</h3>
+                <ul class="skill">
+                    <li>Protocols & Concepts: TCP/IP, DHCP, DNS, ARP, VLANs, Basic Routing & Switching.</li>
+                    <li>OS & Scripting: Windows, Linux, Python (Network Automation), Bash.</li>
+                    <li>Tools & Support: Wireshark, Nmap, Troubleshooting.</li>
+                    <li>Certifications: Preparing for CompTIA Network+.</li>
+                </ul>
+                <h3>Web Development & Programming</h3>
+                <ul class="skill">
+                    <li>Languages: Python, JavaScript, Java, C/C++, SQL.</li>
+                    <li>Frontend: HTML, CSS, JavaScript, React.js, Figma (Design).</li>
+                    <li>Backend & DB: Flask, Django, REST APIs, SQLite, PostgreSQL.</li>
+                    <li>Dev Tools: Git, Linux, OOP, Data Structures, Debugging.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>EDUCATION</h2>
+                <h3>Master of Computer Applications (MCA)</h3>
+                <p>Pandit Ravi Shankar Shukla University, Raipur</p>
+                <p>2023 - Graduated September 2025 | Percentage: 76.73%</p>
+                <h3>Bachelor of Science (Computer Science)</h3>
+                <p>T.C.L. Govt. P.G. College, Janjgir</p>
+                <p>2021-2023 | Percentage: 73.55%</p>
+            </section>
+            <section>
+                <h2>ACADEMIC & PERSONAL PROJECTS</h2>
+                <h3>Cyber Security & Analysis Projects</h3>
+                <ul class="skill">
+                    <li><strong>Real-Time Security Dashboard using Splunk</strong><br>
+                        Engineered a centralized log monitoring solution by configuring Splunk to ingest network and system logs. Developed dashboards and set up AI-driven alerts to detect suspicious activity, enhancing the security team's ability to respond to critical threats (e.g., failed logins, traffic anomalies).</li>
+                    <li><strong>Ransomware Attack Simulation & Detection</strong><br>
+                        Conducted a simulated ransomware attack in a sandboxed environment to study file encryption techniques. Developed Python scripts for rapid root-cause identification and system recovery, directly focusing on incident response protocols.</li>
+                </ul>
+                <h3>Full-Stack Web Development Projects</h3>
+                <ul class="skill">
+                    <li><strong>E-Commerce Platform with Django & React</strong><br>
+                        Developed a full-stack e-commerce site using Django REST Framework (Backend) and React.js (Frontend). Implemented secure JWT authentication, PostgreSQL database management, and responsive UI design.</li>
+                    <li><strong>RESTful API Service (Flask)</strong><br>
+                        Designed and deployed a lightweight API using Flask and Python. Focused on efficient routing, data serialization, and database interaction using SQLite, practicing clean code and modular design principles.</li>
+                </ul>
+                <h3>Networking & System Utilities</h3>
+                <ul class="skill">
+                    <li><strong>Network Reconnaissance Tool (Python)</strong><br>
+                        Created a command-line tool in Python using the Scapy library to perform basic network reconnaissance, including ARP scanning and packet sniffing, for local network auditing and monitoring.</li>
+                    <li><strong>Virtual Network Lab Setup</strong><br>
+                        Configured a secure virtual environment using VirtualBox/VMware involving multiple operating systems (Kali Linux, Windows Server) to practice network segmentation, firewall rules, and protocol analysis with Wireshark.</li>
+                </ul>
+            </section>
+        </div>
+        <div id="mainRight">
+            <section>
+                <h2>ABOUT</h2>
+                <p>Networking Enthusiast, SOC Analyst & Full-Stack Web Developer<br>
+                    Passionate about building scalable, secure, and user-centric web applications. Proficient in Python, JavaScript, Flask, Django, React, and SQL/PostgreSQL, with hands-on experience in REST APIs, JWT authentication, and responsive frontend design. Solid foundation in data structures, OOP, Linux, and debugging.<br>
+                    Enthusiastic about networking and infrastructure, with practical exposure to TCP/IP, DHCP, DNS, ARP, subnetting, and tools like Wireshark, Nmap, and VirtualBox/VMware. Actively preparing for CompTIA Network+ and Security+, with experience from TryHackMe labs, basic firewall setups, and system troubleshooting.</p>
+            </section>
+            <section>
+                <h2>PROFESSIONAL EXPERIENCE & INTERNSHIPS</h2>
+                <h3>FMS Engineer | KAIZEN IT Services Private Limited (Kyndryl Project)</h3>
+                <p>On-site at Income Tax Dept., Raipur | September 2025 – Present</p>
+                <ul class="skill">
+                    <li>Provides front-line IT support and Field Managed Services, enforcing IT policies and ensuring system compliance.</li>
+                    <li>Responsible for on-site system troubleshooting, maintenance, and basic security configurations for end-users.</li>
+                </ul>
+                <h3>Full-Stack Web Developer (Intern) | Adyant-SoftTech</h3>
+                <p>Feb 2025 - August 2025 (6 months)</p>
+                <ul class="skill">
+                    <li>Involved in debugging, optimizing performance, and resolving technical issues in web applications (React/Django).</li>
+                </ul>
+                <h3>Virtual Intern - Ethical Hacking & Penetration Testing</h3>
+                <p>Centre for Development of Advanced Computing (C-DAC), Noida | May 2025 - Jun 2025 (2 months)</p>
+                <ul class="skill">
+                    <li>Enhanced skills in identifying and analyzing system flaws and network vulnerabilities, crucial for IT security and system maintenance.</li>
+                </ul>
+                <h3>Cyber Security Intern | Acmegrade</h3>
+                <p>Jul 2024 – Sep 2024 (3 months)</p>
+                <ul class="skill">
+                    <li>Gained practical cybersecurity knowledge, including information gathering techniques from websites.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>CERTIFICATIONS & TRAINING</h2>
+                <h3>Programming & Automation</h3>
+                <ul class="skill">
+                    <li>PCEPT™ Certified Entry-Level Python Programmer (76%) | Feb 2025</li>
+                    <li>The Complete Full-Stack Web Development Bootcamp</li>
+                </ul>
+                <h3>Networking & Cloud Fundamentals</h3>
+                <ul class="skill">
+                    <li>CISCO: Networking Basics</li>
+                    <li>Google: The Bits and Bytes of Computer Networking</li>
+                    <li>IBM: Computer Networks and Network Security</li>
+                    <li>AMAZON: AWS Educate Getting Started with Networking</li>
+                    <li>In Progress: CCNA, CompTIA Network+ (N+)</li>
+                </ul>
+                <h3>Cybersecurity & Practical Labs</h3>
+                <ul class="skill">
+                    <li>NPTEL: Ethical Hacking & Practical Cybersecurity (Certified)</li>
+                    <li>In Progress: CompTIA Security+</li>
+                    <li>Cyber Labs: TryHackMe (Beginner-Intermediate Rooms), PicoCTF Challenges</li>
+                </ul>
+                <h3>Competitive Examination</h3>
+                <ul class="skill">
+                    <li>TCS ION NQT - IT | June 2025 (Overall Score: 56.08%)</li>
+                </ul>
+            </section>
+        </div>
     </main>
-  </body>
+</body>
 </html>
