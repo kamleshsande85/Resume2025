@@ -20,7 +20,7 @@ h3 {
 }
 main { 
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 100%;
     margin-top: 3em;
 }
 header {
