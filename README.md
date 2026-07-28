@@ -1,4 +1,4 @@
-# Resume2025
+# Digital Resume
 
 > Replace the ALL-CAPS placeholders below with your actual details before publishing.
 
